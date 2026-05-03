@@ -2,8 +2,11 @@
 **시각장애인을 위한 옷 색감 및 종류 음성 안내 앱**
 
 <div align="center">
-  <img src="./speak-clothes-app.gif" width="600"/>
+  <img src="./introduce.gif" width="600"/>
 </div>
+
+> ⚠️ **안내**: 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 프로젝트 원본 레포지토리 링크는 다음과 같습니다.
+> - 원본: [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
 
 ---
 
@@ -23,13 +26,13 @@
 
 **개발 기간**: 2023.05 ~ 2023.09 (5개월) | **팀원**: 4명
 
-### 제가 담당한 주요 작업은 다음과 같습니다
+### 프로젝트에서 제 역할은 아래와 같습니다
 
 | 구분 | 내용 |
 |------|------|
 | **PM** | 프로젝트 전체 일정 관리 및 기획 |
-| **AI 모델** | Google Vertex AI / Vision AI 모델 학습 및 앱 연동 보조 |
-| **데이터 구축** | Firebase를 활용한 공감각적 색 안내 라벨 데이터 구축 보조 |
+| **AI 모델** | Google Vertex AI / Vision AI 모델 학습 및 앱 연동 |
+| **데이터 구축** | Firebase를 활용한 공감각적 색 안내 라벨 데이터 구축 (별도 서버 없이 운영) |
 | **Frontend** | Flutter 기반 카메라 캡처 로직 구현 |
 
 ---
@@ -39,7 +42,7 @@
 - **옷 촬영 및 분석**: 카메라로 옷을 촬영하면 AI가 색상과 종류를 자동 분석
 - **음성 안내**: Google TTS를 통해 분석 결과를 음성으로 안내
 - **공감각적 색 표현**: 색을 단순 색상명이 아닌 촉각·기억·미각 등의 감각적 표현으로 안내
-- **Firebase 기반 데이터 관리**: 별도 서버 없이 Firebase로 색상 라벨 데이터 관리
+- **Firebase 기반 데이터 관리**: 별도 서버 없이 Firebase로 라벨 데이터 운영
 
 ---
 
