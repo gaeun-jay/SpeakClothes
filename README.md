@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="./speak-clothes-app.gif" width="600"/>
+<img src="resources/speak-clothes-app.gif" width="600"/>
 
 # 옷을말하다 (Speak-Clothes)
 ### 시각장애인을 위한 옷 색감 및 종류 음성 안내 앱
 
-> <img src="resources/circle-info.png" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 원본 레포지토리 : [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
+> <img src="resources/info.png" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 원본 레포지토리 : [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
 
 </div>
 
@@ -36,7 +36,7 @@
 |------|------|
 | PM | 프로젝트 전체 일정 관리 및 기획 |
 | AI 모델 | Google Vertex AI / Vision AI 모델 학습 및 앱 연동 |
-| 데이터 구축 | Firebase를 활용한 공감각적 색 안내 라벨 데이터 구축 (별도 서버 없이 운영) |
+| 데이터 구축 | Firebase를 활용한 공감각적 색 안내 라벨 데이터 구축 |
 | Frontend | Flutter 기반 카메라 캡처 로직 구현 |
 
 <br/>
@@ -46,7 +46,7 @@
 시각장애인은 색을 색상명으로 인지하기 어렵습니다. 이를 해결하기 위해 시각장애인의 색 인지 방식을 사전 조사하고, **촉각·미각·기억·계절감 등 공감각적 언어로 표현한 색 DB를 직접 구축**하였습니다.
 
 - 총 **106개** 컬러 라벨 직접 제작
-- 단순 색상명(예: `빨간색`) 대신 감각적 묘사(예: `뜨거운 고추장의 빨간색`) 사용
+- 단순 색상명(예: `연두색`) 대신 감각적 묘사(예: `녹차를 우린 물같이 살짝은 씁쓸한 연한 연구색`) 사용
 - Firebase Cloud Firestore에 저장하여 별도 서버 없이 앱과 연동
 
 <div align="center">
@@ -113,27 +113,24 @@
 ## <img src="resources/folder-open.png" width="18" height="18"/> &nbsp;프로젝트 구조
 
 ```
-speak-clothes/
+SpeakClothes/
 ├── lib/
 │   ├── main.dart             # 앱 진입점 및 주요 로직
 │   ├── checkAPI.dart         # API 연동 확인
 │   └── color.dart            # 색상 데이터 처리
 ├── resources/
-│   ├── circle-info.png
-│   ├── trophy.png
-│   ├── magnifying-glass.png
-│   ├── users.png
-│   ├── database.png
-│   ├── star.png
-│   ├── tech-stack.png
-│   ├── triangle-exclamation.png
-│   ├── folder-open.png
-│   ├── file-lines.png
+│   ├── speak-clothes-app.gif # 앱 시연 GIF
 │   ├── color_db_main.png     # 색 DB 샘플 이미지
-│   └── color_db.pdf          # 전체 색 DB
-├── assets/
+│   ├── color_db.pdf          # 전체 색 DB(PDF)
+│   └── *.png                 # README 섹션 아이콘
+├── assets/                   # 옷을 말하다 앱 아이콘콘
+│   ├── speak_clothes_logo.png
+│   ├── speak_clothes_logo_icon.png
 │   └── speak_clothes_top_icon.png
-└── pubspec.yaml
+├── android/                  # Android 플랫폼 설정
+├── ios/                      # iOS 플랫폼 설정
+├── pubspec.yaml
+└── pubspec.lock
 ```
 
 <br/>
