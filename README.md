@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="resources/speak-clothes-app.gif" width="600"/>
-
 # 옷을말하다 (Speak-Clothes)
 ### 시각장애인을 위한 옷 색감 및 종류 음성 안내 앱
+
+<img src="resources/speak-clothes-app.gif" width="600"/>
 
 > <img src="resources/info.png" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 원본 레포지토리 : [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
 
