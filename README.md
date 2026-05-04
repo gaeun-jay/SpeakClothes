@@ -5,7 +5,7 @@
 
 <img src="resources/speak-clothes-app.gif" width="600"/>
 
-> <img src="resources/info.png" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 원본 레포지토리 : [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
+> <img src="resources/info.png" width="16" height="16"/> **안내** : 주 계정 이전(`jga-eun` → `gaeun-jay`)으로 인해 기존 계정인 [@jga-eun](https://github.com/jga-eun) 에서 fork 해 온 프로젝트입니다. 프로젝트 원본 레포지토리 링크는 다음과 같습니다 : [jga-eun/speak-clothes](https://github.com/jga-eun/speak-clothes)
 
 </div>
 
@@ -28,9 +28,9 @@
 ## <img src="resources/users.png" width="18" height="18"/> &nbsp;팀 구성 및 담당 역할
 
 - **개발 기간** : 2023.05 ~ 2023.09 (5개월)
-- **팀원 수** : 4인
+- **팀원** : 4명
 
-프로젝트 세부 과정은 다음과 같습니다.
+프로젝트에서 제 역할은 아래와 같습니다
 
 | 구분 | 내용 |
 |------|------|
